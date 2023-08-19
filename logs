@@ -1,0 +1,5 @@
+INFO 2023-08-19 11:19:01,557 request-loggers :Method: GET, URL: /webhook/packed_data, Headers: {'Content-Length': '', 'Content-Type': 'text/plain', 'User-Agent': 'PostmanRuntime/7.32.3', 'Accept': '*/*', 'Postman-Token': '31db31f6-acf7-40ef-9865-8b10d5237d6b', 'Host': '127.0.0.1:8000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'},UserID:None
+ERROR 2023-08-19 11:19:03,521 Internal Server Error on path: /webhook/packed_data,api_error:{'detail': ErrorDetail(string="key error on 'customer_idiii'", code='error')}
+INFO 2023-08-19 11:19:03,521 Response status code: 500
+ERROR 2023-08-19 11:19:03,521 Internal Server Error: /webhook/packed_data
+ERROR 2023-08-19 11:19:03,522 "GET /webhook/packed_data HTTP/1.1" 500 42
